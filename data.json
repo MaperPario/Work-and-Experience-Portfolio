@@ -1,0 +1,65 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "A small, client-side application that generates new quotes after a small interval of time.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://maperpario.github.io/random_quote_generator_project_1/",
+            "github_link": "https://github.com/MaperPario/random_quote_generator_project_1",
+            "image_urls": [
+                "views/images/project_1_additional_1.png",
+                "views/images/project_1_additional_2.png",
+                "views/images/project_1_landing.png"]
+        },
+        { // Left off here
+            "id": 1,
+            "project_name": "Random Quote Generator",
+            "description": "A small, client-side application that generates new quotes after a small interval of time.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://maperpario.github.io/random_quote_generator_project_1/",
+            "github_link": "https://github.com/MaperPario/random_quote_generator_project_1",
+            "image_urls": [
+                "views/images/project_1_additional_1.png",
+                "views/images/project_1_additional_2.png",
+                "views/images/project_1_landing.png"]
+        },
+        {
+            "id": 2,
+            "project_name": "Random Quote Generator",
+            "description": "A small, client-side application that generates new quotes after a small interval of time.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://maperpario.github.io/random_quote_generator_project_1/",
+            "github_link": "https://github.com/MaperPario/random_quote_generator_project_1",
+            "image_urls": [
+                "views/images/project_1_additional_1.png",
+                "views/images/project_1_additional_2.png",
+                "views/images/project_1_landing.png"]
+        },
+        {
+            "id": 3,
+            "project_name": "Random Quote Generator",
+            "description": "A small, client-side application that generates new quotes after a small interval of time.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://maperpario.github.io/random_quote_generator_project_1/",
+            "github_link": "https://github.com/MaperPario/random_quote_generator_project_1",
+            "image_urls": [
+                "views/images/project_1_additional_1.png",
+                "views/images/project_1_additional_2.png",
+                "views/images/project_1_landing.png"]
+        },
+        {
+            "id": 4,
+            "project_name": "Random Quote Generator",
+            "description": "A small, client-side application that generates new quotes after a small interval of time.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://maperpario.github.io/random_quote_generator_project_1/",
+            "github_link": "https://github.com/MaperPario/random_quote_generator_project_1",
+            "image_urls": [
+                "views/images/project_1_additional_1.png",
+                "views/images/project_1_additional_2.png",
+                "views/images/project_1_landing.png"]
+        }
+        
+    ]
+}
