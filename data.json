@@ -8,9 +8,9 @@
             "live_link": "https://maperpario.github.io/random_quote_generator_project_1/",
             "github_link": "https://github.com/MaperPario/random_quote_generator_project_1",
             "image_urls": [
-                "/images/project_1_additional_1.png",
-                "/images/project_1_additional_2.png",
-                "/images/project_1_landing.png"]
+                "../public/images/project_1_additional_1.png",
+                "../public/images/project_1_additional_2.png",
+                "../public/images/project_1_landing.png"]
         },
         {
             "id": 1,

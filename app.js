@@ -2,14 +2,13 @@
 const express = require('express');
 const app = express();
 const data = require('./data.json');
-const path = require('path');
+const port = 3000;
 
 app.set('view engine', 'pug');
-app.set('views');
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-    res.render(data.projects);
+    res.render('index', { projects: data.projects });
 });
 
 app.get('/about', (req, res) => {
@@ -18,7 +17,7 @@ app.get('/about', (req, res) => {
 
 app.get('/projects/:id', (req, res, next) => {
     const projectId = req.params.id;
-    const project = projects.find(({ id }) => id === +projectId);
+    const project = data.projects.find(({ id }) => id === parseInt(projectId));
     if (project) {
         res.render('project', {project});
     } else {
@@ -26,4 +25,5 @@ app.get('/projects/:id', (req, res, next) => {
     }
 });
 
-app.listen(3000);
+app.listen(port);
+console.log(`This app is running on port ${port}`);
