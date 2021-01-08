@@ -23,19 +23,28 @@ app.get('/projects/:id', (req, res, next) => {
     if (project) {
         res.render('project', {project});
     } else {
-        res.sendStatus(404);
+        const err = new Error();
+        err.status = 404;
+        err.message = 'Oops! This route does not exist, try another!';
+        next(err);
     }
 });
 
 //error handlers
 app.use(function (req, res, next) {
-    res.status(404).send("Sorry, this route is inaccessible. Please try another route!");
-    console.log('Error 404. This route could not be found.');
+    // res.status(404).send("Sorry, this route is inaccessible. Please try another route!");
+    console.log();
+    const err = new Error();
+    err.status = 404;
+    err.message = 'Oops! This route does not exist, try another!';
+    next(err);
 });
 
 app.use(function (err, req, res, next) {
-    console.error(err.stack);
-    res.status(500).send('A Server Error Occurred');
+    err.status = err.status || 500;
+    err.message = err.message || 'Server Error Occurred';
+    console.log(err.status, err.message);
+    res.status(err.status).send(err.message);
 });
 
 app.listen(port);
