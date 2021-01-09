@@ -25,27 +25,35 @@ app.get('/projects/:id', (req, res, next) => {
     } else {
         const err = new Error();
         err.status = 404;
-        err.message = 'Oops! This route does not exist, try another!';
         next(err);
     }
 });
 
 //error handlers
-app.use(function (req, res, next) {
-    // res.status(404).send("Sorry, this route is inaccessible. Please try another route!");
-    console.log();
-    const err = new Error();
-    err.status = 404;
-    err.message = 'Oops! This route does not exist, try another!';
-    next(err);
+//404
+app.use((req, res, next) => {
+    render404(res);
 });
 
-app.use(function (err, req, res, next) {
-    err.status = err.status || 500;
-    err.message = err.message || 'Server Error Occurred';
-    console.log(err.status, err.message);
-    res.status(err.status).send(err.message);
+//global
+app.use((err, req, res, next) => {
+    if (err) {
+        console.log('Global Error Handler Called', err);
+    }
+
+    if (err.status === 404) {
+        render404(res);
+    } else {
+        err.message = err.message || `Oops! It looks like something went wrong on the server!`;
+        res
+            .status(err.status || 500)
+            .render('error', { err });
+    }
 });
+
+function render404(res) {
+    res.status(404).render('not-found');
+}
 
 app.listen(port);
 console.log(`This app is running on port ${port}`);
