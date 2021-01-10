@@ -3,7 +3,7 @@
         {
             "id": 0,
             "project_name": "Random Quote Generator",
-            "description": "A small, client-side application that generates new quotes after a small interval of time.",
+            "description": "A small, client-side application that generates new quotes after a small interval of time or if the user click the 'Show another quote' button.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://maperpario.github.io/random_quote_generator_project_1/",
             "github_link": "https://github.com/MaperPario/random_quote_generator_project_1",
@@ -54,8 +54,8 @@
             "project_name": " API Requests",
             "description": "An application for a fictional company called 'Awesome Startup' that allows for employees to share contact information with each other.",
             "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "https://maperpario.github.io/project_5__api_requests/",
-            "github_link": "https://github.com/MaperPario/project_5__api_requests",
+            "live_link": "https://maperpario.github.io/project_5_public_api_requests/",
+            "github_link": "https://github.com/MaperPario/project_5_public_api_requests",
             "image_urls": [
                 "/images/project_5_additional_1.png",
                 "/images/project_5_additional_2.png",

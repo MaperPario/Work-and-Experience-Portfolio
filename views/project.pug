@@ -18,13 +18,14 @@ block content
 
         //- Use an `each` iterator to replace the li tags below and interpolation to dynamically add the technologies used in each project.
         ul
-          each technology in `${project.technologies}`
+          each technology in project.technologies
             li= technology
 
         //- Use template literals and interpolation to add URLs to the hrefs below so they link to the repo and the live version of each project.
-        a.button.expanded(href='') Live Demo
-        a.button.expanded(href='') GitHub Repo
+        a.button.expanded(href=`${project.live_link}`, target="_blank") Live Demo
+        a.button.expanded(href=`${project.github_link}`, target="_blank") GitHub Repo
+        br
     
     //- Replace the URLs in the src attributes below with template literals and interpolation to dynamically add three project images.  You only have to add one image.  But adding more images to show your app in different states demonstrates a level of thoroughness and professionalism that potential employers will like to see. 
-    img.image(src='/static/images/project_1_additional_1.png')
-    img.image(src='/static/images/project_1_additional_2.png')
+    img.image(src=`/static/images/project_${project.id + 1}_additional_1.png`)
+    img.image(src=`/static/images/project_${project.id + 1}_additional_2.png`)
