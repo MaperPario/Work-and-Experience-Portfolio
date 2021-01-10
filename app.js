@@ -21,7 +21,8 @@ app.get('/projects/:id', (req, res, next) => {
     const projectId = req.params.id;
     const project = data.projects.find(({ id }) => id === parseInt(projectId));
     if (project) {
-        res.render('project', {project});
+        res.render('project', { project });
+        console.log(project);
     } else {
         const err = new Error();
         err.status = 404;
