@@ -1,10 +1,10 @@
-// Import Express and set up the app
+//import Express and set up the app
 const express = require('express');
 const app = express();
 const data = require('./data.json');
 const port = 3000;
 
-//middleware
+//set view engine to pug templating engine
 app.set('view engine', 'pug');
 app.use("/static", express.static('public'));
 
@@ -30,12 +30,13 @@ app.get('/projects/:id', (req, res, next) => {
 });
 
 //error handlers
-//404
+
+//404 error handler
 app.use((req, res, next) => {
     render404(res);
 });
 
-//global
+//global error handler
 app.use((err, req, res, next) => {
     if (err) {
         console.log('Global Error Handler Called', err);
@@ -51,9 +52,13 @@ app.use((err, req, res, next) => {
     }
 });
 
+//function for rendering the 'not-found' template
 function render404(res) {
     res.status(404).render('not-found');
 }
 
+//listener for 3000 port
 app.listen(port);
+
+//logging that the app is running on the 3000 port
 console.log(`This app is running on port ${port}`);
