@@ -53,8 +53,11 @@ app.use((err, req, res, next) => {
 });
 
 //function for rendering the 'not-found' template
-function render404(res) {
-    res.status(404).render('not-found');
+function render404(res, err) {
+    err = new Error();
+    err.message = '404 - Page Not Found';
+    console.log(err.message);
+    res.status(404).render('page-not-found');
 }
 
 //listener for 3000 port
