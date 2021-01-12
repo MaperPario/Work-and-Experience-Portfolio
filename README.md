@@ -1,6 +1,29 @@
 # portfolio_project_6
 My Sixth Full Stack JavaScript TechDegree Project
 
+Prerequisites
+Install:
+    - Node
+    - Express
+    - Pug
+
+Spin Up The Server:
+    - Using 'npm start', 'npm run start' or 'nodemon' to get this server running on localhost:3000
+
+Built With:
+    - Node
+    - Express
+    - Pug
+    - HTML
+    - CSS
+    - JavaScript
+
+License:
+ISC
+
+Acknowledgments
+    - Team TreeHouse
+
 CSS Changes:
 - Made background color a light purple color for 'Layout'.
 - Changed font color is 'layout' to white.
