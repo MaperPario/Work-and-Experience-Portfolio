@@ -1,4 +1,4 @@
-# portfolio_project_6
+# work_and_exeperince_portfolio
 My Sixth Full Stack JavaScript TechDegree Project
 
 Prerequisites
