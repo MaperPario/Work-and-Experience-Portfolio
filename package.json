@@ -25,6 +25,7 @@
   "homepage": "https://github.com/MaperPario/portfolio_project_6#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "pug": "^3.0.0"
+    "pug": "^3.0.0",
+    "serve-favicon": "^2.5.0"
   }
 }
