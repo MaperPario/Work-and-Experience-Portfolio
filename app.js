@@ -2,7 +2,7 @@
 const express = require('express');
 const app = express();
 const data = require('./data.json');
-const port = 80;
+const port = process.env.PORT || 3000;
 
 //set view engine to pug templating engine
 app.set('view engine', 'pug');
