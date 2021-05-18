@@ -66,7 +66,7 @@
             "project_name": "React Gallery App",
             "description": "An image gallery web application built in React for fast and modular image searches via a popular image API.",
             "technologies": ["HTML", "CSS", "JavaScript", "React"],
-            "live_link": "",
+            "live_link": "https://jackson-react-gallery-app.herokuapp.com/search/cats",
             "github_link": "https://github.com/MaperPario/React-Gallery-App",
             "image_urls": [
                 "/images/project_6_additional_2.png",
@@ -78,7 +78,7 @@
             "project_name": "Library Manager",
             "description": "A web application that includes pages to list, add, update, and delete books from a library of books.",
             "technologies": ["HTML", "CSS", "JavaScript", "Sequelize", "SQLite"],
-            "live_link": "",
+            "live_link": "https://jackson-library-manager.herokuapp.com/books",
             "github_link": "https://github.com/MaperPario/Library-Manager",
             "image_urls": [
                 "/images/project_7_additional_2.png",
@@ -88,9 +88,9 @@
         {
             "id": 7,
             "project_name": "Course Creator API",
-            "description": "A REST API using Express allowing a user to administer a school database containing information about users and courses. Users can interact with the database to create new courses, retrieve information on existing courses, and update or delete existing courses.",
+            "description": "A REST API using Express allowing a user to administer a school database containing information about users and courses. Users can interact with the database to create new courses, retrieve information on existing courses, and update or delete existing courses. For use of this API, use the 'course-creator-client' project on the previous page.",
             "technologies": ["HTML", "CSS", "JavaScript", "Node", "Express", "Postman"],
-            "live_link": "",
+            "live_link": "https://jackson-course-creator-api.herokuapp.com/",
             "github_link": "https://github.com/MaperPario/Course-Creator-API",
             "image_urls": [
                 "/images/project_8_additional_1.png",
@@ -102,7 +102,7 @@
             "project_name": "Course Creation Full Stack Application",
             "description": "An application for users to administer a school database containing information about courses: users can interact with the database by retrieving a list of courses, viewing detail for a specific course, as well as creating, updating and deleting courses in the database.",
             "technologies": ["HTML", "CSS", "JavaScript", "React", "Node", "Express", "SQL"],
-            "live_link": "",
+            "live_link": "https://jackson-course-creator-client.herokuapp.com/",
             "github_link": "https://github.com/MaperPario/Course-Creation-Full-Stack-App",
             "image_urls": [
                 "/images/project_9_additional_1.png",
