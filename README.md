@@ -1,5 +1,7 @@
 # [Work and Experience Portfolio](https://jackson-hagin-portfolio.herokuapp.com)
 
+^^^ Opens using Heroku Free Version, so may be slow initially ^^^
+
 *A portfolio exhibiting all of my current work as a Full Stack JavaScript Developer.*
 
 How to run:
