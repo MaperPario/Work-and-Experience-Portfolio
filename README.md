@@ -1,6 +1,7 @@
 # Work and Experience Portfolio
 
-**Prerequisites**:
+How to run:
+
 Install:
 - Node
 - Express
