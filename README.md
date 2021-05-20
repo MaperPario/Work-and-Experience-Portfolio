@@ -1,28 +1,30 @@
-# work_and_experience_portfolio
-My Sixth Full Stack JavaScript TechDegree Project
+# [Work and Experience Portfolio](https://jackson-hagin-portfolio.herokuapp.com)
 
-Prerequisites
+*A portfolio exhibiting all of my current work on my path to becoming a Full Stack JavaScript Developer.*
+
+How to run:
+
 Install:
-    - Node
-    - Express
-    - Pug
+- Node
+- Express
+- Pug
 
 Spin Up The Server:
-    - Using 'npm start', 'npm run start' or 'nodemon' to get this server running on localhost:3000
+- Using 'npm start', 'npm run start' or 'nodemon' to get this server running on localhost:3000
 
 Built With:
-    - Node
-    - Express
-    - Pug
-    - HTML
-    - CSS
-    - JavaScript
+- Node
+- Express
+- Pug
+- HTML
+- CSS
+- JavaScript
 
 License:
 ISC
 
-Acknowledgments
-    - Team TreeHouse
+Acknowledgments:
+- Team TreeHouse
 
 CSS Changes:
 - Made background color a light purple color for 'Layout'.
