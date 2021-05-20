@@ -1,27 +1,27 @@
 # Work and Experience Portfolio
 
-Prerequisites
+**Prerequisites**:
 Install:
-    - Node
-    - Express
-    - Pug
+- Node
+- Express
+- Pug
 
 Spin Up The Server:
-    - Using 'npm start', 'npm run start' or 'nodemon' to get this server running on localhost:3000
+- Using 'npm start', 'npm run start' or 'nodemon' to get this server running on localhost:3000
 
 Built With:
-    - Node
-    - Express
-    - Pug
-    - HTML
-    - CSS
-    - JavaScript
+- Node
+- Express
+- Pug
+- HTML
+- CSS
+- JavaScript
 
 License:
 ISC
 
-Acknowledgments
-    - Team TreeHouse
+Acknowledgments:
+- Team TreeHouse
 
 CSS Changes:
 - Made background color a light purple color for 'Layout'.
