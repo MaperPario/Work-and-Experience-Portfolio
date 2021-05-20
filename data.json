@@ -99,7 +99,7 @@
         },
         {
             "id": 8,
-            "project_name": "Course Creation Full Stack Application",
+            "project_name": "Course Creator Full Stack Application",
             "description": "An application for users to administer a school database containing information about courses: users can interact with the database by retrieving a list of courses, viewing detail for a specific course, as well as creating, updating and deleting courses in the database.",
             "technologies": ["HTML", "CSS", "JavaScript", "React", "Node", "Express", "SQL"],
             "live_link": "https://jackson-course-creator-client.herokuapp.com/",
