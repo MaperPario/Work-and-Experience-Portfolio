@@ -1,6 +1,6 @@
 # [Work and Experience Portfolio](https://jackson-hagin-portfolio.herokuapp.com)
 
-*A portfolio exhibiting all of my current work on my path to becoming a Full Stack JavaScript Developer.*
+*A portfolio exhibiting all of my current work as a Full Stack JavaScript Developer.*
 
 How to run:
 
