@@ -1,5 +1,4 @@
 # work_and_experience_portfolio
-My Sixth Full Stack JavaScript TechDegree Project
 
 Prerequisites
 Install:
